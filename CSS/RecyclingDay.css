@@ -1,92 +1,165 @@
-body {
-    font-family: Arial;
-    margin: 0;
-    background-image: url("/Images/recyclingLogo.png");
-}
-
-.headerPage {
-    padding: 30px;
-    /* text-align: right; */
-    background-color: #3DB936;
-    color: white;
-    /* 
-    font-size: 30px; */
-}
-
-.collection-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
-}
-
-.collection {
-    position: relative;
-}
-
-.glass {
-    width: 225px;
-    height: 300px;
-    background-color: #3db9366e;
-    color: black;
-    text-align: left;
-    padding-top: 15%;
-}
-
-.organic {
-    width: 225px;
-    height: 300px;
-    background-color: #5d605d52;
-    color: black;
-    text-align: left;
-    padding-top: 15%;
-}
-
-.paper {
-    width: 225px;
-    height: 300px;
-    background-color: #0008fe62;
-    color: black;
-    text-align: left;
-    padding-top: 15%;
-}
-
-.metal {
-    width: 225px;
-    height: 300px;
-    background-color: #ce2b2b63;
-    color: black;
-    text-align: left;
-    padding-top: 15%;
-}
-
-.plastic {
-    width: 225px;
-    height: 300px;
-    background-color: #d7d72d80;
-    color: black;
-    text-align: left;
-    padding-top: 15%;
-}
-
-.image {
-    width: 225px;
-    height: 300px;
-}
-
-.footerPage {
-    padding: 50px;
-    /* text-align: right; */
-    background-color: #3DB936;
-    color: white;
-    /* 
-    font-size: 30px; */
-}
-
-footer {
-    padding: 25px;
-    /* text-align: right; */
-    background-color: #3DB936;
-    color: white;
-    font-size: 30px;
-}
+            body {
+                font-family: Arial;
+                margin: 0;
+            }
+            
+            .headerPage {
+                padding: 30px;
+                background-color: #3DB936;
+                color: white;
+            }
+            
+            .headerPage img {
+                float: left;
+                width: 100px;
+                height: 100px;
+                background: #3DB936;
+            }
+            
+            .headerPage h1 {
+                position: relative;
+                top: 5px;
+                left: 30px;
+            }
+            
+            .body-text img {
+                float: left;
+                width: 100px;
+                height: 100px;
+            }
+            
+            .body-text h2 {
+                position: fixed;
+                top: 150px;
+                left: 70px;
+            }
+            
+            .collection-container {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-gap: 10px;
+            }
+            
+            .collection {
+                position: relative;
+            }
+            
+            .glass {
+                width: 225px;
+                height: 300px;
+                background-color: #3db9366e;
+                color: black;
+                text-align: left;
+                padding-top: 15%;
+                border-radius: 25px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
+            
+            .glass img {
+                height: 275px;
+                opacity: 50%;
+                position: fixed;
+                left: -1cm;
+                padding-top: 10px;
+            }
+            
+            .organic {
+                width: 225px;
+                height: 300px;
+                background-color: #5d605d52;
+                color: black;
+                text-align: left;
+                padding-top: 15%;
+                border-radius: 25px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
+            
+            .organic img {
+                height: 200px;
+                opacity: 30%;
+                position: fixed;
+                padding-left: 12px;
+                padding-top: 50px;
+            }
+            
+            .paper {
+                width: 225px;
+                height: 300px;
+                background-color: #0008fe62;
+                color: black;
+                text-align: left;
+                padding-top: 15%;
+                border-radius: 25px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
+            
+            .paper img {
+                height: 200px;
+                opacity: 30%;
+                position: fixed;
+                padding-left: 12px;
+                padding-top: 50px;
+            }
+            
+            .metal {
+                width: 225px;
+                height: 300px;
+                background-color: #ce2b2b63;
+                color: black;
+                text-align: left;
+                padding-top: 15%;
+                border-radius: 25px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
+            
+            .metal img {
+                height: 200px;
+                opacity: 30%;
+                position: fixed;
+                padding-left: 12px;
+                padding-top: 50px;
+            }
+            
+            .plastic {
+                width: 225px;
+                height: 300px;
+                background-color: #d7d72d80;
+                color: black;
+                text-align: left;
+                padding-top: 15%;
+                border-radius: 25px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
+            
+            .plastic img {
+                height: 200px;
+                opacity: 30%;
+                position: fixed;
+                padding-left: 12px;
+                padding-top: 50px;
+            }
+            
+            .image {
+                position: fixed;
+            }
+            
+            footer {
+                padding: 30px;
+                background-color: #3DB936;
+                color: black;
+                font-size: 30px;
+            }
+            
+            footer img {
+                float: left;
+                width: 100px;
+                height: 100px;
+                background: #3DB936;
+            }
+            
+            footer p {
+                position: relative;
+                top: 5px;
+                left: 30px;
+            }
