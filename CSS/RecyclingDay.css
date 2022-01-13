@@ -48,11 +48,11 @@
             }
             
             .glass img {
-                position: absolute;
-                right: 10;
-                bottom: 30;
                 height: 275px;
                 opacity: 50%;
+                position: fixed;
+                left: -1cm;
+                padding-top: 10px;
             }
             
             .organic {
@@ -67,11 +67,11 @@
             }
             
             .organic img {
-                top: 80;
-                left: 10;
                 height: 200px;
                 opacity: 30%;
-                position: absolute;
+                position: fixed;
+                padding-left: 12px;
+                padding-top: 50px;
             }
             
             .paper {
@@ -86,11 +86,11 @@
             }
             
             .paper img {
-                top: 300;
-                left: 520;
                 height: 200px;
                 opacity: 30%;
-                position: absolute;
+                position: fixed;
+                padding-left: 12px;
+                padding-top: 50px;
             }
             
             .metal {
@@ -105,11 +105,11 @@
             }
             
             .metal img {
-                left: 10;
-                bottom: 60;
                 height: 200px;
                 opacity: 30%;
-                position: absolute;
+                position: fixed;
+                padding-left: 12px;
+                padding-top: 50px;
             }
             
             .plastic {
@@ -124,33 +124,21 @@
             }
             
             .plastic img {
-                left: 10;
-                top: 75;
                 height: 200px;
                 opacity: 30%;
-                position: absolute;
+                position: fixed;
+                padding-left: 12px;
+                padding-top: 50px;
             }
             
             .image {
-                bottom: 200;
-                right: 60;
                 width: 225px;
                 height: 300px;
-                position: absolute;
-            }
-            
-            .footerPage {
-                padding: 50px;
-                /* text-align: right; */
-                background-color: #3DB936;
-                color: white;
-                /* 
-    font-size: 30px; */
+                position: fixed;
             }
             
             footer {
-                padding: 25px;
-                /* text-align: right; */
+                padding: 30px;
                 background-color: #3DB936;
                 color: black;
                 font-size: 30px;
