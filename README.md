@@ -1,5 +1,7 @@
 # The Annual Recycling Day
 
+##
+Se intento seguir el estilo de la imagen generada en una herramienta online para generar wireframes. 
 
 ## Header
 
