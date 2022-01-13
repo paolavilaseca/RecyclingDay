@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.headerPage {
+    padding: 30px;
+    /* text-align: right; */
+    background-color: #3DB936;
+    color: white;
+    /* 
+    font-size: 30px; */
+}
+
+.collection-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.collection {
+    position: relative;
+}
+
+.glass {
+    width: 225px;
+    height: 227px;
+    background-color: #3db9366e;
+    color: black;
+}
+
+.organic {
+    width: 225px;
+    height: 227px;
+    background-color: #5d605d52;
+    color: black;
+}
